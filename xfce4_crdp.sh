@@ -11,6 +11,5 @@ sudo apt install --assume-yes xfce4-terminal
 sudo systemctl disable lightdm.service
 echo "export CHROME_REMOTE_DESKTOP_DEFAULT_DESKTOP_SIZES=1280x720,1368x786" \
     >> ~/.profile
-sudo systemctl restart chrome-remote-desktop
-sudo passwd $(whoami)    
+sudo systemctl restart chrome-remote-desktop 
 echo "visit https://remotedesktop.google.com/headless"

@@ -1,4 +1,4 @@
-wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
+wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb --no-check-certificate
 sudo apt update
 echo "System is now updated"
 sudo dpkg --install chrome-remote-desktop_current_amd64.deb
